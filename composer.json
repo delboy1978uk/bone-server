@@ -1,6 +1,6 @@
 {
-    "name": "delboy1978uk\/bone-server",
-    "description": "Server package for Bone MVC Framework",
+    "name": "delboy1978uk/bone-server",
+    "description": "Server package for Bone Framework",
     "license": "MIT",
     "authors": [
         {
@@ -8,13 +8,13 @@
             "email": "delboy1978uk@gmail.com"
         }
     ],
-    "require": [],
+    "require": {},
     "require-dev": {
         "roave\/security-advisories": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Bone\\Server\\\\": "src\/"
+            "Bone\\Server\\": "src/"
         }
     }
 }
