@@ -2,7 +2,7 @@
 
 namespace Bone\Server;
 
-use Bone\Traits\HasAttributesTrait;
+use Bone\Server\Traits\HasAttributesTrait;
 
 class Environment
 {
