@@ -14,6 +14,7 @@ class HasAttributesTest extends Test
         };
 
         $class->setAttribute('test', 'value');
+        $this->assertTrue($class->hasAttribute('test'));
         $this->assertEquals('value', $class->getAttribute('test'));
 
         $class->setAttributes([0,1,2,3,4,5,6]);

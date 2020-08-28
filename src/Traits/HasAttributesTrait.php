@@ -11,7 +11,7 @@ trait HasAttributesTrait
      * @param $key
      * @return mixed|null
      */
-    public function getAttribute($key, $default = null)
+    public function getAttribute(string $key, $default = null)
     {
         return $this->attributes[$key] ?: $default;
     }
@@ -19,29 +19,34 @@ trait HasAttributesTrait
     /**
      * @param string $key
      * @param $value
-     * @return $this
      */
-    public function setAttribute(string $key, $value)
+    public function setAttribute(string $key, $value): void
     {
         $this->attributes[$key] = $value;
-        return $this;
     }
 
     /**
      * @param array $attributes
-     * @return $this
      */
-    public function setAttributes(array $attributes)
+    public function setAttributes(array $attributes): void
     {
         $this->attributes = $attributes;
-        return $this;
     }
 
     /**
      * @return array
      */
-    public function getAttributes()
+    public function getAttributes(): array
     {
         return $this->attributes;
+    }
+
+    /**
+     * @param string $key
+     * @return bool
+     */
+    public function hasAttribute(string $key): bool
+    {
+        return array_key_exists($key, $this->attributes);
     }
 }
