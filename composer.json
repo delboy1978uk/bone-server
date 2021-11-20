@@ -14,8 +14,9 @@
         "delboy1978uk/session": "^1.0"
     },
     "require-dev": {
-        "codeception/codeception": "^2.2",
-        "roave/security-advisories": "dev-master"
+        "codeception/codeception": "^4.1",
+        "codeception/module-asserts": "^1.1",
+        "roave/security-advisories": "dev-latest"
     },
     "autoload": {
         "psr-4": {
