@@ -3,9 +3,9 @@
 namespace BoneTest;
 
 use Bone\Server\Traits\HasAttributesTrait;
-use Codeception\TestCase\Test;
+use Codeception\Test\Unit;
 
-class HasAttributesTest extends Test
+class HasAttributesTest extends Unit
 {
     public function testAttributes()
     {

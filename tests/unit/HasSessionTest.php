@@ -3,10 +3,10 @@
 namespace BoneTest;
 
 use Bone\Server\Traits\HasSessionTrait;
-use Codeception\TestCase\Test;
+use Codeception\Test\Unit;
 use Del\SessionManager;
 
-class HasSessionTest extends Test
+class HasSessionTest extends Unit
 {
     public function testRouter()
     {

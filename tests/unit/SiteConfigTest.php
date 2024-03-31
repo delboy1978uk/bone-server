@@ -4,9 +4,9 @@ namespace Barnacle\Tests;
 
 use Bone\Server\Environment;
 use Bone\Server\SiteConfig;
-use Codeception\TestCase\Test;
+use Codeception\Test\Unit;
 
-class SiteConfigTest extends Test
+class SiteConfigTest extends Unit
 {
     public function testRouter()
     {

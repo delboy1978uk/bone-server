@@ -5,9 +5,9 @@ namespace BoneTest;
 use Bone\Server\Environment;
 use Bone\Server\SiteConfig;
 use Bone\Server\Traits\HasSiteConfigTrait;
-use Codeception\TestCase\Test;
+use Codeception\Test\Unit;
 
-class HasSiteConfigTest extends Test
+class HasSiteConfigTest extends Unit
 {
     public function testConfig()
     {
