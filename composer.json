@@ -26,5 +26,10 @@
         "psr-4": {
             "BoneTest\\": "tests/unit/"
         }
+    },
+    "config": {
+        "allow-plugins": {
+            "phpro/grumphp": false
+        }
     }
 }
